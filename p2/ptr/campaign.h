@@ -4,6 +4,7 @@
 #include <string>
 #include <map>
 #include <memory>
+#include "monster.h"
 #include <stdexcept>
 
 class Hero; // Forward declaration

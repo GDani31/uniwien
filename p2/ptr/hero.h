@@ -5,6 +5,7 @@
 #include <map>
 #include <iostream>
 #include <stdexcept>
+#include "player.h"
 
 class Monster; // Forward declaration
 
@@ -15,6 +16,7 @@ public:
     unsigned level_up();
     bool fight(Monster& m);
     int get_id();
+    
     
     friend std::ostream& operator<<(std::ostream& o, const Hero& obj);
 
